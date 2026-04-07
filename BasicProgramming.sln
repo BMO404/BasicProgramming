@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicArray", "BasicArray\Ba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleStruct", "SampleStruct\SampleStruct.vcxproj", "{1BE33C25-FCC1-4700-BF62-E614A5759491}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMacro", "SampleMacro\SampleMacro.vcxproj", "{A4A95B3E-3305-4E86-857B-01DBA312F7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Debug|Any CPU.Build.0 = Debug|Win32
 		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Release|Any CPU.ActiveCfg = Release|Win32
 		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Release|Any CPU.Build.0 = Release|Win32
+		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Debug|Any CPU.Build.0 = Debug|Win32
+		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal

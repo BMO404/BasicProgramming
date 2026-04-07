@@ -1,5 +1,5 @@
 #include <cstdio>
-#include "Player.h"
+#include "Student.h"
 
 
 int main()
