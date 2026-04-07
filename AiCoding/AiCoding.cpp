@@ -1,46 +1,61 @@
 #include <cstdio>
 
-int main() {
-    // 기본 자료형 선언
-    int score = 85;
-    double temperature = 36.5;
-    char grade = 'B';
-    bool isPassed = true;
+int main()
+{
+    printf("=== C++ 반복문 예제 ===\n\n");
 
-    std::printf("=== C++ 기본 자료형 + 조건문 예제 ===\n\n");
-
-    // 정수형 조건문
-    std::printf("점수: %d\n", score);
-    if (score >= 80) {
-        std::printf("결과: 합격\n\n");
-    } else {
-        std::printf("결과: 불합격\n\n");
+    // for문 예제: 1부터 5까지 출력
+    printf("[for문: 1부터 5까지]\n");
+    for (int i = 1; i <= 5; i++) {
+        printf("%d ", i);
     }
+    printf("\n\n");
 
-    // 부동소수점형 조건문
-    std::printf("체온: %.1f°C\n", temperature);
-    if (temperature >= 37.0) {
-        std::printf("상태: 발열\n\n");
-    } else {
-        std::printf("상태: 정상\n\n");
+    // for문 + 조건문: 짝수만 출력
+    printf("[for문 + 조건문: 1부터 10까지 중 짝수만]\n");
+    for (int i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+            printf("%d ", i);
+        }
     }
+    printf("\n\n");
 
-    // 문자형 조건문
-    std::printf("학점: %c\n", grade);
-    if (grade == 'A') {
-        std::printf("평가: 최우수\n\n");
-    } else if (grade == 'B') {
-        std::printf("평가: 우수\n\n");
-    } else {
-        std::printf("평가: 보통\n\n");
+    // while문 예제: 5부터 1까지 역순 출력
+    printf("[while문: 5부터 1까지 역순]\n");
+    int count = 5;
+    while (count >= 1) {
+        printf("%d ", count);
+        count--;
     }
+    printf("\n\n");
 
-    // 불린형 조건문
-    std::printf("통과 여부: %s\n", isPassed ? "Yes" : "No");
-    if (isPassed) {
-        std::printf("다음 단계로 진행\n");
-    } else {
-        std::printf("재시도 필요\n");
+    // while문 + 조건문: 합계 계산
+    printf("[while문 + 조건문: 1부터 100까지 합계]\n");
+    int sum = 0;
+    int num = 1;
+    while (num <= 100) {
+        sum += num;
+        num++;
+    }
+    printf("합계: %d\n\n", sum);
+
+    // for문 + 조건문: 구구단 2단
+    printf("[for문 + 조건문: 2단 (짝수 결과만)]\n");
+    for (int i = 1; i <= 9; i++) {
+        int result = 2 * i;
+        if (result % 2 == 0) {
+            printf("2 x %d = %d\n", i, result);
+        }
+    }
+    printf("\n");
+
+    // for문: 중첩 반복문 (별 패턴)
+    printf("[중첩 for문: 별 패턴]\n");
+    for (int i = 1; i <= 3; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
     }
 
     return 0;
