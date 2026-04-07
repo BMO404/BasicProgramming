@@ -1,19 +1,21 @@
 #include <cstdio>
 
-// 자료형 -> 함수이름(파라미터)
-int PrintSum(int A)
+// 자료형 -> 함수이름(파라미터)ㄴ
+int PrintSum(int C)
 {
-    printf("Age: %d\n", A);
-    return A;
+    
+    int C;
+    scanf_s("%d", &C);
+    
+    return C;
 }
 
 int main(int argc, char* argv[])
 {
-    int Num = 0;
-    printf("입력한 값: ");
-    scanf_s("%d", &Num);
     
-    PrintSum(Num);
+    PrintSum();
+    printf("입력한 값:\n");
+    
     
     return 0;
 }

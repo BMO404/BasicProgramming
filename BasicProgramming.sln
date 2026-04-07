@@ -8,6 +8,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AiCoding", "AiCoding\AiCodi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AiUserFunction", "AiUserFunction\AiUserFunction.vcxproj", "{676E4D2F-08C9-496E-9002-036644FEAE3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerVariable", "PointerVariable\PointerVariable.vcxproj", "{F5610BA9-AA50-48E7-AB4A-CDD722DB1791}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicArray", "BasicArray\BasicArray.vcxproj", "{39ED6A04-7DA6-4F22-90F7-7380EBCBEC76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleStruct", "SampleStruct\SampleStruct.vcxproj", "{1BE33C25-FCC1-4700-BF62-E614A5759491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,17 @@ Global
 		{676E4D2F-08C9-496E-9002-036644FEAE3B}.Debug|Any CPU.Build.0 = Debug|Win32
 		{676E4D2F-08C9-496E-9002-036644FEAE3B}.Release|Any CPU.ActiveCfg = Release|Win32
 		{676E4D2F-08C9-496E-9002-036644FEAE3B}.Release|Any CPU.Build.0 = Release|Win32
+		{F5610BA9-AA50-48E7-AB4A-CDD722DB1791}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F5610BA9-AA50-48E7-AB4A-CDD722DB1791}.Release|Any CPU.Build.0 = Release|Win32
+		{F5610BA9-AA50-48E7-AB4A-CDD722DB1791}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F5610BA9-AA50-48E7-AB4A-CDD722DB1791}.Debug|Any CPU.Build.0 = Debug|x64
+		{39ED6A04-7DA6-4F22-90F7-7380EBCBEC76}.Release|Any CPU.ActiveCfg = Release|Win32
+		{39ED6A04-7DA6-4F22-90F7-7380EBCBEC76}.Release|Any CPU.Build.0 = Release|Win32
+		{39ED6A04-7DA6-4F22-90F7-7380EBCBEC76}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{39ED6A04-7DA6-4F22-90F7-7380EBCBEC76}.Debug|Any CPU.Build.0 = Debug|x64
+		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Debug|Any CPU.Build.0 = Debug|Win32
+		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Release|Any CPU.ActiveCfg = Release|Win32
+		{1BE33C25-FCC1-4700-BF62-E614A5759491}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
