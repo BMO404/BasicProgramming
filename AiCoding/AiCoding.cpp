@@ -1,44 +1,11 @@
 #include <cstdio>
 
 int main() {
-    printf("=== C++ 이중 반복문과 do-while문 예제 ===\n\n");
+    printf("=== C++ 이중 반복문과 do-while문 응용 예제 ===\n\n");
 
-    // 이중 for문: 구구단 표
-    printf("[이중 for문: 2단과 3단 구구단]\n");
-    for (int dan = 2; dan <= 3; dan++) {
-        printf("<%d단>\n", dan);
-        for (int i = 1; i <= 9; i++) {
-            printf("%d x %d = %d\n", dan, i, dan * i);
-        }
-        printf("\n");
-    }
-
-    // 이중 for문 + 조건문: 9x9 구구단 (5 이상만)
-    printf("[이중 for문 + 조건문: 결과가 5 이상인 것만]\n");
-    for (int i = 1; i <= 3; i++) {
-        for (int j = 1; j <= 9; j++) {
-            int result = i * j;
-            if (result >= 5) {
-                printf("%d*%d=%d  ", i, j, result);
-            }
-        }
-        printf("\n");
-    }
-    printf("\n");
-
-    // 이중 for문: 직사각형 패턴
-    printf("[이중 for문: 직사각형 패턴]\n");
-    for (int i = 1; i <= 3; i++) {
-        for (int j = 1; j <= 4; j++) {
-            printf("# ");
-        }
-        printf("\n");
-    }
-    printf("\n");
-
-    // 이중 for문: 삼각형 패턴
-    printf("[이중 for문: 삼각형 패턴]\n");
-    for (int i = 1; i <= 5; i++) {
+    // 이중 for문: 역삼각형 패턴
+    printf("[이중 for문: 역삼각형]\n");
+    for (int i = 5; i >= 1; i--) {
         for (int j = 1; j <= i; j++) {
             printf("* ");
         }
@@ -46,35 +13,82 @@ int main() {
     }
     printf("\n");
 
-    // do-while문: 카운트 다운
-    printf("[do-while문: 카운트 다운]\n");
-    int countdown = 5;
-    do {
-        printf("%d\n", countdown);
-        countdown--;
-    } while (countdown > 0);
+    // 이중 for문 + 조건문: 소수 찾기
+    printf("[이중 for문 + 조건문: 1부터 20까지의 소수]\n");
+    for (int i = 2; i <= 20; i++) {
+        int isPrime = 1;
+        for (int j = 2; j < i; j++) {
+            if (i % j == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
+        if (isPrime) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n\n");
+
+    // 이중 for문: 구구단 마름모 패턴
+    printf("[이중 for문: 숫자 행렬]\n");
+    for (int i = 1; i <= 3; i++) {
+        for (int j = 1; j <= 3; j++) {
+            printf("%d ", i * j);
+        }
+        printf("\n");
+    }
     printf("\n");
 
-    // do-while문 + 조건문: 합계 계산
-    printf("[do-while문 + 조건문: 1부터 50까지 중 3의 배수만 합계]\n");
-    int count = 1;
-    int total = 0;
-    do {
-        if (count % 3 == 0) {
-            total += count;
-            printf("%d ", count);
+    // 이중 for문 + 조건문: 대각선 패턴
+    printf("[이중 for문 + 조건문: 대각선 패턴]\n");
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= 4; j++) {
+            if (i == j) {
+                printf("X ");
+            } else {
+                printf("  ");
+            }
         }
-        count++;
-    } while (count <= 50);
-    printf("\n합계: %d\n\n", total);
+        printf("\n");
+    }
+    printf("\n");
 
-    // do-while문: 사용자 입력 시뮬레이션
-    printf("[do-while문: 숫자 출력]\n");
-    int num = 1;
+    // do-while문: 범위 내 숫자 누적
+    printf("[do-while문: 1부터 20까지 누적 합계]\n");
+    int i = 1;
+    int sum = 0;
     do {
-        printf("숫자: %d\n", num);
-        num++;
-    } while (num <= 3);
+        sum += i;
+        printf("합계: %d\n", sum);
+        i++;
+    } while (i <= 5);
+    printf("\n");
+
+    // do-while문 + 조건문: 최대값 찾기
+    printf("[do-while문 + 조건문: 최댓값 찾기]\n");
+    int numbers[] = {15, 42, 7, 33, 20};
+    int max = numbers[0];
+    int index = 1;
+    do {
+        if (numbers[index] > max) {
+            max = numbers[index];
+            printf("새로운 최댓값: %d\n", max);
+        }
+        index++;
+    } while (index < 5);
+    printf("최종 최댓값: %d\n\n", max);
+
+    // do-while문: 카운터 기반 반복
+    printf("[do-while문: 이벤트 처리]\n");
+    int event = 1;
+    do {
+        if (event % 2 == 0) {
+            printf("이벤트 %d: 짝수 처리\n", event);
+        } else {
+            printf("이벤트 %d: 홀수 처리\n", event);
+        }
+        event++;
+    } while (event <= 4);
 
     return 0;
 }
