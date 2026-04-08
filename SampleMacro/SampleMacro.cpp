@@ -12,8 +12,8 @@ struct Player
     {
         printf("id     : %d\n", id);
         printf("hp     : %.1f\n", hp);
-        printf("id     : %c\n", );
-        printf("id     : %s\n", id);
+        printf("id     : %c\n", grader);
+        printf("id     : %s\n", alive);
     }
 };
 

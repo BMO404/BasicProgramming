@@ -16,6 +16,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleStruct", "SampleStruc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMacro", "SampleMacro\SampleMacro.vcxproj", "{A4A95B3E-3305-4E86-857B-01DBA312F7E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{112AF4AD-BBA3-481E-BE8F-8C31C43E6CB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BsicClass", "BsicClass\BsicClass.vcxproj", "{13B8ACAE-ABFE-449C-99AA-41566B047FD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gugudan", "gugudan\gugudan.vcxproj", "{5C120C99-E9F1-4283-A234-5D695754B004}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG", "TextRPG\TextRPG.vcxproj", "{4F845AE6-C86A-4F44-B3C7-A6AA17F95574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +62,21 @@ Global
 		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Debug|Any CPU.Build.0 = Debug|Win32
 		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Release|Any CPU.ActiveCfg = Release|Win32
 		{A4A95B3E-3305-4E86-857B-01DBA312F7E0}.Release|Any CPU.Build.0 = Release|Win32
+		{112AF4AD-BBA3-481E-BE8F-8C31C43E6CB9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{112AF4AD-BBA3-481E-BE8F-8C31C43E6CB9}.Debug|Any CPU.Build.0 = Debug|Win32
+		{112AF4AD-BBA3-481E-BE8F-8C31C43E6CB9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{112AF4AD-BBA3-481E-BE8F-8C31C43E6CB9}.Release|Any CPU.Build.0 = Release|Win32
+		{13B8ACAE-ABFE-449C-99AA-41566B047FD6}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{13B8ACAE-ABFE-449C-99AA-41566B047FD6}.Debug|Any CPU.Build.0 = Debug|Win32
+		{13B8ACAE-ABFE-449C-99AA-41566B047FD6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{13B8ACAE-ABFE-449C-99AA-41566B047FD6}.Release|Any CPU.Build.0 = Release|Win32
+		{5C120C99-E9F1-4283-A234-5D695754B004}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5C120C99-E9F1-4283-A234-5D695754B004}.Debug|Any CPU.Build.0 = Debug|Win32
+		{5C120C99-E9F1-4283-A234-5D695754B004}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5C120C99-E9F1-4283-A234-5D695754B004}.Release|Any CPU.Build.0 = Release|Win32
+		{4F845AE6-C86A-4F44-B3C7-A6AA17F95574}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4F845AE6-C86A-4F44-B3C7-A6AA17F95574}.Release|Any CPU.Build.0 = Release|Win32
+		{4F845AE6-C86A-4F44-B3C7-A6AA17F95574}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4F845AE6-C86A-4F44-B3C7-A6AA17F95574}.Debug|Any CPU.Build.0 = Debug|x64
 	EndGlobalSection
 EndGlobal
