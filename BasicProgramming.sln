@@ -26,6 +26,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG", "TextRPG\TextRPG.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionPointer", "FunctionPointer\FunctionPointer.vcxproj", "{F27F0019-19D2-420A-ADB9-D71FF5E25DAD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualFunction", "VirtualFunction\VirtualFunction.vcxproj", "{09E0F997-867D-4CF1-9332-E583F9B0983F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDBinding", "SDBinding\SDBinding.vcxproj", "{937C0CE9-6596-4F24-8A48-51E6CE0F2BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{F27F0019-19D2-420A-ADB9-D71FF5E25DAD}.Debug|Any CPU.Build.0 = Debug|Win32
 		{F27F0019-19D2-420A-ADB9-D71FF5E25DAD}.Release|Any CPU.ActiveCfg = Release|Win32
 		{F27F0019-19D2-420A-ADB9-D71FF5E25DAD}.Release|Any CPU.Build.0 = Release|Win32
+		{09E0F997-867D-4CF1-9332-E583F9B0983F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{09E0F997-867D-4CF1-9332-E583F9B0983F}.Debug|Any CPU.Build.0 = Debug|Win32
+		{09E0F997-867D-4CF1-9332-E583F9B0983F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{09E0F997-867D-4CF1-9332-E583F9B0983F}.Release|Any CPU.Build.0 = Release|Win32
+		{937C0CE9-6596-4F24-8A48-51E6CE0F2BEB}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{937C0CE9-6596-4F24-8A48-51E6CE0F2BEB}.Debug|Any CPU.Build.0 = Debug|Win32
+		{937C0CE9-6596-4F24-8A48-51E6CE0F2BEB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{937C0CE9-6596-4F24-8A48-51E6CE0F2BEB}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
